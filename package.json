@@ -1,0 +1,15 @@
+{
+  "name": "imgWarp",
+  "version": "0.0.0",
+  "description": "Takes a destinaion image and palette image, and tries to create the destination image using only the palate image colors.",
+  "main": "index.js",
+  "scripts": {
+    "test": "beefy warp.js"
+  },
+  "author": "Alex Petersen <theoperatore@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "beefy": "^2.0.2",
+    "browserify": "^4.2.0"
+  }
+}
